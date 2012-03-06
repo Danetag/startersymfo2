@@ -64,3 +64,12 @@ Run
 http://myproject/app_dev.php/
 
 and Enjoy it !
+
+
+Doctrine
+-------
+
+For every entities changes, you have to execute this command
+
+	php app/console doctrine:schema:update --force
+

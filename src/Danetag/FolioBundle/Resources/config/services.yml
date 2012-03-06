@@ -1,0 +1,7 @@
+parameters:
+#    danetag_folio.example.class: Danetag\FolioBundle\Example
+
+services:
+#    danetag_folio.example:
+#        class: %danetag_folio.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
