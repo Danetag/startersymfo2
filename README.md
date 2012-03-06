@@ -8,11 +8,17 @@ Once you cloned the project, you have to configure it
 
 ### Vhost
 
-You have (but not necessary) add a vhost. Don't forget, you have to modify the `hosts`and `vhosts`files.
+You have (but not necessary) add a vhost. Don't forget, you have to modify the `hosts`and `httpd-vhosts.conf`files.
+
+1. On Mac
+
+/private/etc/hosts
+/private/etc/apache2/extra/httpd-vhosts.conf
 
 ### Configuration
 
-Copy, past and rename `app/config/parameters.ini.dist` in `app/config/parameters.ini`, and configure it
+1. Copy, past and rename `app/config/parameters.ini.dist` in `app/config/parameters.ini`, and configure it
+2. Add your IP in the list in `web/app_dev.php` file.
 
 ### Vendors
 
