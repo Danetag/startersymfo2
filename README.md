@@ -32,6 +32,8 @@ Many systems allow you to use the chmod +a command. Try this first, and if you g
 	sudo chmod +a "www-data allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs
 	sudo chmod +a "`whoami` allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs
 
+Notes : www-data is the name for Apache group user, but sometimes it named "_www" 
+
 ### 2. Using Acl on a system that does not support chmod +a
 
 Some systems don't support chmod +a, but do support another utility called setfacl. You may need to enable ACL support on your partition and install setfacl before using it (as is the case with Ubuntu), like so:
