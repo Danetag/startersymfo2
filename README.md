@@ -12,8 +12,8 @@ You have (but not necessary) add a vhost. Don't forget, you have to modify the `
 
 1. On Mac
 
-/private/etc/hosts
-/private/etc/apache2/extra/httpd-vhosts.conf
+	/private/etc/hosts
+	/private/etc/apache2/extra/httpd-vhosts.conf
 
 ### Configuration
 
